@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sticker {
+  position: absolute;
+  width:220px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.sticker.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* 하얀 네모 */
+.glitch-box {
+  position: absolute;
+  background: black;
+  opacity: 0.98;
+
+}
